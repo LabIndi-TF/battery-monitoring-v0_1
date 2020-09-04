@@ -15,7 +15,7 @@ Program Battery Monitoring (Node.js - Express - React)
     //deklarasi objek serial
     var portName = "COM4";
     var myPort = new serialport(portName,{
-    baudRate:9600
+        baudRate:9600
     });
     ```
 2. Sejauh ini cuma itu sih
